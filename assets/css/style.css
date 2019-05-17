@@ -71,6 +71,10 @@ p {
     padding: 0 10px;
 }
 
+form{
+    margin: 0px 10px;
+}
+
 #profile {
     float: left;
     padding-right: 10px;
