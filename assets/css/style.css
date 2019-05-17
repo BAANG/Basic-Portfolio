@@ -107,6 +107,14 @@ textarea {
     height: 200px;
 }
 
+button {
+    line-height: 38px;
+    padding: 0 28px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+}
+
 footer {
     font-size: 14px;
     clear: both;
