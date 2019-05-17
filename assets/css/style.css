@@ -1,5 +1,4 @@
 body {
-    height: 100%;
     background-image: url("../images/floor-tile.png")
 }
 
@@ -12,6 +11,8 @@ body {
     border: 1px solid;
     border-color: #cccccc;
     min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 a, a:link, a:visited {
@@ -89,6 +90,20 @@ form{
 
 footer {
     clear: both;
+    position: absolute;
+    bottom: 0px !important;
+    padding-top: 55px;
+    width: 100%;
+    text-align: center;
+    background-color: darkgray;
+    border-top: 3px solid;
+    border-color: #4aaaa5;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+#portfolio {
+    clear: both;
     position: relative;
     bottom: 0px !important;
     padding-top: 55px;
@@ -98,5 +113,5 @@ footer {
     border-top: 3px solid;
     border-color: #4aaaa5;
     color: #ffffff;
-    margin-bottom: -50px;
+    margin-bottom: 0px;
 }
