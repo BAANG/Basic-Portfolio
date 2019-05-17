@@ -79,3 +79,8 @@ form{
     float: left;
     padding-right: 10px;
 }
+
+.portfolio-img {
+    float: left;
+    margin: 15px;
+}
