@@ -7,6 +7,9 @@ body {
     height: 100%;
     margin: 110px auto;
     background-color: #ffffff;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-color: #cccccc;
 }
 
 a, a:link, a:visited {
